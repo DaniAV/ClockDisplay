@@ -1,11 +1,14 @@
 #BlueJ class context
 comment0.params=horario\ minutero
 comment0.target=ClockDisplay(int,\ int)
-comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ ClockDisplay\r\n
-comment1.params=
-comment1.target=void\ timeTick()
-comment1.text=\r\nCambia\ la\ hora\ del\ reloj\ aumentando\ en\ 1\ los\ minutos\r\n
+comment0.text=\r\n\ Constructor\ de\ objetos\ para\ la\ clase\ ClockDisplay\r\n
+comment1.params=horario\ minutero
+comment1.target=void\ setTime(int,\ int)
+comment1.text=\r\n\ Metodo\ que\ Fija\ la\ hora\ del\ reloj\ a\ una\ determinada\r\n
 comment2.params=
-comment2.target=java.lang.String\ getTime()
-comment2.text=\r\nMuestra\ una\ cadena\ de\ 5\ caracteres,\ mostrando\ la\ hora\ y\ minutos\r\n
-numComments=3
+comment2.target=void\ timeTick()
+comment2.text=\r\nMetodo\ que\ Cambia\ la\ hora\ del\ reloj\ aumentando\ en\ 1\ los\ minutos\r\n
+comment3.params=
+comment3.target=java.lang.String\ getTime()
+comment3.text=\r\nMetodo\ que\ muestra\ una\ cadena\ de\ 5\ caracteres,\ mostrando\ la\ hora\ y\ minutos\ \r\nseparados\ por\ \:\r\n
+numComments=4

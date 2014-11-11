@@ -10,15 +10,14 @@ public class ClockDisplay
     // instance variables - replace the example below with your own
     private int horas;
     private int minutos;
-   
-
+    
     /**
-     * Constructor for objects of class ClockDisplay
+     * Constructor de objetos para la clase ClockDisplay
      */
     public ClockDisplay(int horario, int minutero)
     {
         // initialise instance variables
-       
+        
         horas = horario;
         minutos = minutero;
 
@@ -26,7 +25,17 @@ public class ClockDisplay
     }
     
     /**
-     *Cambia la hora del reloj aumentando en 1 los minutos
+     * Metodo que Fija la hora del reloj a una determinada
+     */
+    public void setTime(int horario, int minutero)
+    {
+       
+        horas = horario;
+        minutos = minutero;
+    }
+    
+    /**
+     *Metodo que Cambia la hora del reloj aumentando en 1 los minutos
      */
     public void timeTick()
   
@@ -37,7 +46,8 @@ public class ClockDisplay
     }
     
     /**
-     *Muestra una cadena de 5 caracteres, mostrando la hora y minutos
+     *Metodo que muestra una cadena de 5 caracteres, mostrando la hora y minutos 
+     *separados por :
      */
     public String getTime()
     {
