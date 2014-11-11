@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=horario\ minutero
+comment0.target=ClockDisplay(int,\ int)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ ClockDisplay\r\n
+comment1.params=
+comment1.target=void\ timeTick()
+comment1.text=\r\nCambia\ la\ hora\ del\ reloj\ aumentando\ en\ 1\ los\ minutos\r\n
+comment2.params=
+comment2.target=java.lang.String\ getTime()
+comment2.text=\r\nMuestra\ una\ cadena\ de\ 5\ caracteres,\ mostrando\ la\ hora\ y\ minutos\r\n
+numComments=3
